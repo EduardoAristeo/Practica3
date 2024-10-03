@@ -69,7 +69,7 @@ final btnLogin = Positioned(
     ).then((value)=>{
       isLooading = false,
       setState((){}),
-      Navigator.pushNamed(context, "/home")
+      Navigator.pushNamed(context, "/onBoarding")
     });
 
 
